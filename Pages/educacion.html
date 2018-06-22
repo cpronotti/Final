@@ -6,27 +6,26 @@
     <meta name="keywords" content="curriculum,ruta,Pronotti">
     <meta name="description" content="Hoja de Ruta de Cristina Pronotti"
 </head>
- <body>
-        <header>
-            <div>
-                <svg>
-                    <title>Logo Curriculum Cristina Pronotti</title>
-                    <image  width="150mm"  height="200mm" x=”10px” y=”10px” xlink:href="../Images/logo.svg"></image>
-                </svg>
-                  <h1>Curriculum Vitae</h1>
-            </div>
+<body bgcolor="#FAFAFA">
+        <header  name="Educacion">
+            <svg>
+                <title>Logo Curriculum Cristina Pronotti</title>
+                <image  width="150mm"  height="200mm" x=”10px” y=”10px” xlink:href="../Images/Logo.svg"></image>
+            </svg>
+            <h1>Curriculum Vitae</h1>
         </header>
-       <h2>Apellido y Nombre: </h2> <h3> María Cristina Pronotti</h3>
-       <h2>Lugar y fecha de Nacimiento: </h2> <h3>Sunchales, 17/03/1973</h3>
-        <br/>
-        <p>
-          <a href="../index.html">Inicio</a>
-            |
-          <a href="educacion.html">Educación</a>
-            |
-          <a href="experiencia.html">Experiencia</a>
-        </p>
-
+        <hr style="color: #8B8989;" />
+        <h2>Apellido y Nombre:  María Cristina Pronotti</h2>
+        <h3>Lugar y fecha de Nacimiento: Sunchales, 17/03/1973</h3>
+        <nav>
+            <p>
+              <a href="../index.html">Inicio</a>
+                |
+              <a href="../Pages/educacion.html">Educación</a>
+                |
+              <a href="../Pages/experiencia.html">Experiencia</a>
+            </p>
+        </nav>
         <br/>
         <h2>Educación</h2>
         <br/>
@@ -67,54 +66,58 @@
            </tbody>
         </table>
 
-        <h3> <strong>Agregar Estudios</strong></h3>
-        <form>
 
-                <p>
-                  <label for="ltitulo">Título:</label>
-                  <br>
-                  <input type="text" id="txttitulo" placeholder="Ej: Perito Mercantil " required autofocus>
-                </p>
-                 <p>
-                   <label for="anio">Año:</label>
-                   <select name="anio">
-                       <option>2000</option>
-                       <option>2001</option>
-                       <option>2002</option>
-                       <option>2003</option>
-                       <option>2004</option>
-                       <option>2005</option>
-                       <option>206</option>
-                       <option>2007</option>
-                       <option>2008</option>
-                       <option>2009</option>
-                       <option>2010</option>
-                       <option>2011</option>
-                       <option>2012</option>
-                       <option>2012</option>
-                       <option>2014</option>
-                       <option>2015</option>
-                       <option>2016</option>
-                       <option>2017</option>
-                   </select>
-                 </p>
+        <form name="Estudios">
+          <fieldset>
+            <legend><h3> Agregar Estudios</h3></legend>
 
                   <p>
-                    <label for="linstitucion">Institución:</label>
+                    <label for="ltitulo">Título:</label>
                     <br>
-                    <input type="text" id="txtinstitucion" placeholder="Ej: Instituto Cooperativo de Enseñanza Superior " required autofocus>
+                    <input type="text" id="ltitulo" placeholder="Ej: Perito Mercantil " required >
                   </p>
-                 <p>
-                   <label for="llugar">Lugar:</label>
-                   <br>
-                   <textarea id="txtlugar" rows="5" cols="30">
-                   </textarea>
-                 </p>
-                <input type="submit" value="Enviar"></input>
+                   <p>
+                     <label for="anio">Año:</label>
+                     <select name="anio">
+                         <option>2000</option>
+                         <option>2001</option>
+                         <option>2002</option>
+                         <option>2003</option>
+                         <option>2004</option>
+                         <option>2005</option>
+                         <option>206</option>
+                         <option>2007</option>
+                         <option>2008</option>
+                         <option>2009</option>
+                         <option>2010</option>
+                         <option>2011</option>
+                         <option>2012</option>
+                         <option>2012</option>
+                         <option>2014</option>
+                         <option>2015</option>
+                         <option>2016</option>
+                         <option>2017</option>
+                     </select>
+                   </p>
+
+                    <p>
+                      <label for="linstitucion">Institución:</label>
+                      <br>
+                      <input type="text" id="linstitucion"  placeholder="Ej: Instituto Cooperativo de Enseñanza Superior " required >
+                    </p>
+                   <p>
+                     <label for="llugar">Lugar:</label>
+                     <br>
+                     <textarea id="llugar" rows="4" cols="100">
+                     </textarea>
+                   </p>
+                  <input type="submit" value="Enviar"></input>
+          </fieldset>
+
 
         </form>
 
-
+         <hr style="color: #8B8989;" />
  </body>
 
  <footer>
